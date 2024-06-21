@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f5f7ff;
+}
+.card{
+    height: 150px;
+    width: 200px;
+    position: relative;
+    border-color: black;
+    margin-right: 30px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    
+}
+input[type="radio"]{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 7px 7px 15px rgba(2,28,53,0.08);
+    cursor: pointer;
+    outline: none;
+}
+input[type="radio"]:before{
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    background-color: #f9fafd;
+    border: 1px solid #e2e6f3;
+    border-radius: 50%;
+    top: 35px;
+    right: 20px;
+}
+input[type="radio"]:after{
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background-color: transparent;
+    border-radius: 50%;
+    top: 39.5px;
+    right: 24.5px;
+}
+label{
+    position: absolute;
+    margin: 20px;
+    cursor: pointer;
+}
+h5{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin: 15px 0 20px 0;
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    margin-left: 30px;
+}
+span{
+    font-weight: 400;
+    font-size: 18px;
+    color: #7b7b93;
+}
+input[type="radio"]:hover{
+    transform: scale(1.05);
+}
+input[type="radio"]:checked{
+    border: 3px solid #478bfb;
+}
+input[type="radio"]:checked:after{
+    background-color: #478bfb;
+    
+}
+#date{
+    margin-top: 5px;
+    margin-left: 30px
+}
+
+#contenant{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px; 
+}
+.btn{
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#header{
+    height: 100px;
+    width: 100%;
+    background-color: lightgrey;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+#deconnexion{
+   margin-left: 800px;
+   text-decoration: none;
+}
+.menu{
+    margin-left: 100px;
+    text-decoration: none;
+}
+img{
+    height: 100px;
+    width: 120x;
+    margin-top: -40px;
+    float: left;
+    
+}
+form{
+    padding-left: 40px;
+}
